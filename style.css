@@ -22,7 +22,7 @@
 header {
     padding: 20px;
     font-family:‘Franklin Gothic Medium’, ‘Arial Narrow’, Arial, sans-serif;
-    background-color:lightslategray;
+    background-color:wheat;
     color: #FFFFFF;
 }
 .navbar-wrapper {
@@ -43,8 +43,13 @@ nav a:hover {
     color: #fff;
 }
 
-
-
+article {
+    box-sizing: border-box;
+    width: 40%;
+    border: 10px solid wheat;
+    float: left;
+    padding: 50px;
+}
 
 .footer-wrapper {
     position: fixed;
@@ -52,7 +57,7 @@ nav a:hover {
     bottom: 0;
     width: 100%;
     text-align: center;
-    padding: 3px;
+    padding: 20px;
     background-color: #E0D5F3;
     color: #7E7E7E;
 }
