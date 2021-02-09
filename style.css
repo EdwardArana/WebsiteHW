@@ -16,14 +16,14 @@
 
  body {
     font-family: sans-serif;
-    background-color: lavender;
+    background-color: brown;
     color: black;
 }
 header {
     padding: 20px;
     font-family:‘Franklin Gothic Medium’, ‘Arial Narrow’, Arial, sans-serif;
     background-color:wheat;
-    color: #FFFFFF;
+    color:black;
 }
 .navbar-wrapper {
     font-family: ‘Franklin Gothic Medium’, ‘Arial Narrow’, Arial, sans-serif;
@@ -40,16 +40,25 @@ nav a {
     text-decoration: none;
 }
 nav a:hover {
-    color: #fff;
+    color:crimson;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
 }
 
 article {
     box-sizing: border-box;
     width: 40%;
-    border: 10px solid wheat;
-    float: left;
+    border: 6px solid wheat;
     padding: 50px;
+    text-align: center;
+    margin: auto;
 }
+
 
 .footer-wrapper {
     position: fixed;
@@ -58,6 +67,6 @@ article {
     width: 100%;
     text-align: center;
     padding: 20px;
-    background-color: #E0D5F3;
+    background-color:wheat;
     color: #7E7E7E;
 }
