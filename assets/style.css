@@ -12,7 +12,7 @@
      float: right;
  }
 
- a:hover {color: crimson;}
+ a:hover {color:red;}
 
  body {
     font-family: sans-serif;
@@ -24,6 +24,7 @@ header {
     font-family: sans-serif;
     background-color:wheat;
     color:black;
+    
 }
 .navbar-wrapper {
     font-family: sans-serif;
@@ -42,7 +43,7 @@ nav a {
     text-decoration: none;
 }
 nav a:hover {
-    color:orangered;
+    color:red;
 }
 
 img {
@@ -52,6 +53,7 @@ img {
     width: fit-content;
     border: 6px solid black;
     border-radius: 10px;
+
 }
 
 article {
@@ -83,11 +85,3 @@ article {
     font-family: sans-serif;
 }
 
-
-  /* img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: fit-content;
-    border: 6px solid black;
-} */
