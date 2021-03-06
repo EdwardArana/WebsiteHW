@@ -4,52 +4,126 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets/reset.css"/>
     <link rel="stylesheet" type="text/css" href="assets/style.css">
     <title>Edward Arana</title>
 </head>
+
 <body>
-    <header>
-        <a name="home"></a>
-        <nav class="navbar-wrapper">    <!-- Nav bar section controls all of the top part of the screen-->
-            <ul style="list-style: none;">
-                <li class="float-left">
-                    <h1 class="ea">Edward Arana</h1>   <!--Made a class for the name to change the font size of just this text -->
-                </li>
-            <li class="float-right">
-              <li><a href="index.html">About</a></li>       
-              <li><a href="work-experience.html">Work</a></li>          <!--links to all other pages-->
-              <li><a href="resume.html">Resume</a></li>
+
+  <header>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+
+      <div class="container-fluid">
+        
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-mdb-toggle="collapse"
+          data-mdb-target="#navbarExample01"
+          aria-controls="navbarExample01"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fas fa-bars"></i>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarExample01">
+
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+            <li class="nav-item active">
+
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+
             </li>
-            </ul>
-          </nav>
-    </header>
+
+            <li class="nav-item">
+
+              <a class="nav-link" href="work-experience.html">Work Experience</a>
+
+            </li>
+
+            <li class="nav-item">
+
+              <a class="nav-link" href="resume.html">Resume</a>
+
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
+
+    </nav>
     
-    <br>
-    <br>
-                                    <!--Added an image with an Alt tag in the event the photo breaks-->
+    <!-- Navbar -->
+  
+  </header>
+
+    <br>                       
+    
     <img src="https://media.istockphoto.com/illustrations/shorthair-pointer-illustration-id163861380?k=6&m=163861380&s=612x612&w=0&h=GW46b1_tbk47rZuPzjHeGc3TfdZcSm8ykRLp_PvhBi8=" alt="German Shorthaired Pointer">
+    
     <article>
+
         <a name="about"></a>
-        <h1 style="font-size: 200%;">About Me</h1>
+
+        <h1 style="font-size: 200%;" >About Me</h1>
         
         <br>
-
-                            <!--This is where my main text and future boxs will go-->
-        <p>Hello, my name is Edward Arana. I am from Los Angeles, I've been an EMT for five years. I have work experience in hospitals and also ambulances. I am used to working in fast paced enviorments and can work well under pressure. I signed up for this bootcamp to learn a new  skill and further my education. My future goal is to go back to college and get a Computer Science Degree. I also have a German Shorthaired Pointer named Ryder.   
-         </p>
+        
+        <p>Hello, my name is Edward Arana. I am from Los Angeles, I've been an EMT for five years. I have work experience in hospitals and also ambulances. I am used to working in fast paced enviorments and can work well under pressure. I signed up for this bootcamp to learn a new  skill and further my education. My future goal is to go back to college and get a Computer Science Degree. I also have a German Shorthaired Pointer named Ryder.</p>
+    
     </article>
-
-
-
-
-
-
+    
 
 <footer class="footer-wrapper">
+
     <p>Contact Me<br>Phone: 999-999-9999<br>
-        <a href="mailto:edwardaranadlt@gmail.com">edwardaranadlt@gmail.com</a></p>   <!--Added a mailto so it will open up a draft to my email-->
+
+        <a href="mailto:edwardaranadlt@gmail.com">edwardaranadlt@gmail.com</a>
+
 </footer>
 
 </body>
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
+<script src="/assets/script.js"></script>
+
 </html>
+
+
+<!-- <header>
+
+  <h1 style="font-size: 40px;">Edward Arana</h1>
+
+  <ul class="nav">
+
+      <li class="nav-item">
+
+        <a class="nav-link active" aria-current="page" href="index.html">About</a>
+
+      </li>
+
+      <li class="nav-item">
+
+        <a class="nav-link" href="work-experience.html">Work Experience</a>
+
+      </li>
+
+      <li class="nav-item">
+
+        <a class="nav-link" href="resume.html">Resume</a>
+
+      </li>
+
+    </ul>
+
+</header> -->
